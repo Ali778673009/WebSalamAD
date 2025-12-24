@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="مؤسسة سلام للإعلان والتسويق - صديقك إلى نجاحك الرقمي. نقدم خدمات التصميم والإعلان والتسويق الرقمي بأعلى جودة وأفضل الأسعار.">
+    <meta name="keywords"
+        content="إعلان, تسويق, تصميم, سوشيال ميديا, هوية بصرية, دعاية, advertising, marketing, design">
+    <title>مؤسسة سلام للإعلان والتسويق | Salam Advertising</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <img src="logo.jpg" alt="Loading..." class="preloader-logo">
+            <div class="preloader-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">
+                <img src="logo.jpg" alt="مؤسسة سلام">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="القائمة">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
+                <li><a href="#about" class="nav-link" data-ar="من نحن" data-en="About">من نحن</a></li>
+                <li><a href="#stats" class="nav-link" data-ar="إنجازاتنا" data-en="Stats">إنجازاتنا</a></li>
+                <li><a href="#categories" class="nav-link" data-ar="أعمالنا" data-en="Portfolio">أعمالنا</a></li>
+                <li><a href="#services" class="nav-link" data-ar="خدماتنا" data-en="Services">خدماتنا</a></li>
+                <li><a href="#packages" class="nav-link" data-ar="الباقات" data-en="Packages">الباقات</a></li>
+                <li><a href="#testimonials" class="nav-link" data-ar="آراء العملاء" data-en="Reviews">آراء العملاء</a>
+                </li>
+                <li><a href="#faq" class="nav-link" data-ar="الأسئلة" data-en="FAQ">الأسئلة</a></li>
+                <li><a href="#contact" class="nav-link" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a></li>
+                <li>
+                    <button class="lang-switcher" id="langSwitcher">
+                        <i class="fas fa-globe"></i>
+                        <span id="langText">EN</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <div class="hero-logo animate-fade-up">
+                <img src="logo.jpg" alt="مؤسسة سلام للإعلان والتسويق">
+            </div>
+            <h1 class="hero-title animate-fade-up delay-1" data-ar="مؤسسة سلام للإعلان والتسويق"
+                data-en="Salam Advertising & Marketing">
+                مؤسسة سلام للإعلان والتسويق
+            </h1>
+            <p class="hero-subtitle animate-fade-up delay-2" data-ar="صديقك إلى نجاحك الرقمي"
+                data-en="Your Partner to Digital Success">
+                صديقك إلى نجاحك الرقمي
+            </p>
+            <p class="hero-description animate-fade-up delay-3"
+                data-ar="نمنح علامتك التجارية حضورًا رقميًا احترافيًا، ونحوّل أفكارك إلى تصاميم وإعلانات تجذب الانتباه وتحقق نتائج حقيقية."
+                data-en="We give your brand a professional digital presence and transform your ideas into eye-catching designs and ads that deliver real results.">
+                نمنح علامتك التجارية حضورًا رقميًا احترافيًا، ونحوّل أفكارك إلى تصاميم وإعلانات تجذب الانتباه وتحقق
+                نتائج حقيقية.
+            </p>
+            <div class="hero-buttons animate-fade-up delay-4">
+                <a href="https://wa.me/967774587970" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-whatsapp"></i>
+                    <span data-ar="تواصل معنا الآن" data-en="Contact Us Now">تواصل معنا الآن</span>
+                </a>
+                <a href="#categories" class="btn btn-secondary">
+                    <i class="fas fa-images"></i>
+                    <span data-ar="شاهد بعض من أعمالنا" data-en="View Our Work">شاهد بعض من أعمالنا</span>
+                </a>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path
+                    d="M0,64L48,69.3C96,75,192,85,288,80C384,75,480,53,576,48C672,43,768,53,864,64C960,75,1056,85,1152,80C1248,75,1344,53,1392,42.7L1440,32L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z">
+                </path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-ar="تعرف علينا" data-en="About Us">تعرف علينا</span>
+                <h2 class="section-title" data-ar="من نحن" data-en="Who We Are">من نحن</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro"
+                        data-ar="مؤسسة سلام للإعلان والتسويق هي شريكك الموثوق في عالم التسويق الرقمي والإعلان الإبداعي."
+                        data-en="Salam Advertising & Marketing Agency is your trusted partner in the world of digital marketing and creative advertising.">
+                        <strong>مؤسسة سلام للإعلان والتسويق</strong> هي شريكك الموثوق في عالم التسويق الرقمي والإعلان
+                        الإبداعي.
+                    </p>
+                    <p data-ar="نحن متخصصون في تقديم حلول إعلانية وتسويقية متكاملة تشمل:"
+                        data-en="We specialize in providing integrated advertising and marketing solutions including:">
+                        نحن متخصصون في تقديم حلول إعلانية وتسويقية متكاملة تشمل:
+                    </p>
+                    <ul class="about-list">
+                        <li><i class="fas fa-check-circle"></i> <span data-ar="الإعلان والتسويق الرقمي"
+                                data-en="Digital Advertising & Marketing">الإعلان والتسويق الرقمي</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-ar="تصميم وإدارة المحتوى الإعلاني"
+                                data-en="Ad Content Design & Management">تصميم وإدارة المحتوى الإعلاني</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-ar="صناعة الهوية البصرية"
+                                data-en="Visual Identity Creation">صناعة الهوية البصرية</span></li>
+                        <li><i class="fas fa-check-circle"></i> <span data-ar="إدارة صفحات التواصل الاجتماعي"
+                                data-en="Social Media Management">إدارة صفحات التواصل الاجتماعي</span></li>
+                    </ul>
+                    <p class="about-highlight">
+                        <i class="fas fa-handshake"></i>
+                        <span data-ar="نحن لا نقدم خدمة فقط... بل نقدم شراكة نجاح حقيقية!"
+                            data-en="We don't just provide a service... we provide a real success partnership!">نحن لا
+                            نقدم خدمة فقط... بل نقدم <strong>شراكة نجاح</strong> حقيقية!</span>
+                    </p>
+                </div>
+                <div class="about-visual">
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3 data-ar="رؤيتنا" data-en="Our Vision">رؤيتنا</h3>
+                        <p data-ar="أن نكون الخيار الأول للعلامات التجارية الطامحة للتميز الرقمي"
+                            data-en="To be the first choice for brands aspiring to digital excellence">أن نكون الخيار
+                            الأول للعلامات التجارية الطامحة للتميز الرقمي</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3 data-ar="مهمتنا" data-en="Our Mission">مهمتنا</h3>
+                        <p data-ar="تحويل أفكارك إلى واقع رقمي يجذب الانتباه ويحقق النتائج"
+                            data-en="Transform your ideas into digital reality that attracts attention and delivers results">
+                            تحويل أفكارك إلى واقع رقمي يجذب الانتباه ويحقق النتائج</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Counter Section -->
+    <section class="stats section" id="stats">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-ar="إنجازاتنا" data-en="Our Achievements">إنجازاتنا</span>
+                <h2 class="section-title" data-ar="أرقام نفتخر بها" data-en="Numbers We're Proud Of">أرقام نفتخر بها
+                </h2>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="stat-number" data-target="1500">0</div>
+                    <div class="stat-label" data-ar="تصميم منجز" data-en="Designs Completed">تصميم منجز</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-label" data-ar="عميل سعيد" data-en="Happy Clients">عميل سعيد</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="stat-number" data-target="200">0</div>
+                    <div class="stat-label" data-ar="فيديو موشن" data-en="Motion Videos">فيديو موشن</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <div class="stat-number" data-target="5">0</div>
+                    <div class="stat-label" data-ar="سنوات خبرة" data-en="Years Experience">سنوات خبرة</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Categories Section -->
+    <section class="categories section" id="categories">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-ar="معرض الأعمال" data-en="Portfolio">معرض الأعمال</span>
+                <h2 class="section-title" data-ar="أقسام التصاميم" data-en="Design Categories">أقسام التصاميم</h2>
+                <p class="section-subtitle" data-ar="اكتشف مجموعة متنوعة من أعمالنا الإبداعية"
+                    data-en="Discover a variety of our creative works">اكتشف مجموعة متنوعة من أعمالنا الإبداعية</p>
+            </div>
+
+            <!-- Category Cards Grid -->
+            <div class="category-cards-grid">
+                <!-- 1. Our Designs -->
+                <div class="category-card" onclick="openGallery('designs')">
+                    <div class="category-image">
+                        <img src="https://ik.imagekit.io/anzznaqya/أعمالنا بالتصاميم/IMG-20250616-WA0012.jpg"
+                            alt="Our Designs">
+                        <div class="category-overlay">
+                            <i class="fas fa-images"></i>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h3 data-ar="أعمالنا بالتصاميم" data-en="Our Designs">أعمالنا بالتصاميم</h3>
+                        <button class="btn btn-sm btn-outline" data-ar="عرض المزيد" data-en="View More">عرض
+                            المزيد</button>
+                    </div>
+                </div>
+
+                <!-- 2. Hajj Videos -->
+                <div class="category-card" onclick="openGallery('hajj')">
+                    <div class="category-image video-preview">
+                        <video src="https://ik.imagekit.io/anzznaqya/اعمالنا فيديو الحج/البشائر-1.mp4" muted loop
+                            onmouseover="this.play()" onmouseout="this.pause()"></video>
+                        <div class="category-overlay">
+                            <i class="fas fa-video"></i>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h3 data-ar="اعمالنا فيديو الحج" data-en="Hajj Videos">اعمالنا فيديو الحج</h3>
+                        <button class="btn btn-sm btn-outline" data-ar="عرض المزيد" data-en="View More">عرض
+                            المزيد</button>
+                    </div>
+                </div>
+
+                <!-- 3. Congratulations Designs -->
+                <div class="category-card" onclick="openGallery('congrats')">
+                    <div class="category-image">
+                        <img src="https://ik.imagekit.io/anzznaqya/تصاميم التهاني/IMG-20251214-WA0035.jpg"
+                            alt="Congratulations Designs">
+                        <div class="category-overlay">
+                            <i class="fas fa-gift"></i>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h3 data-ar="تصاميم التهاني" data-en="Congratulations Designs">تصاميم التهاني</h3>
+                        <button class="btn btn-sm btn-outline" data-ar="عرض المزيد" data-en="View More">عرض
+                            المزيد</button>
+                    </div>
+                </div>
+
+                <!-- 4. Friday Designs -->
+                <div class="category-card" onclick="openGallery('friday')">
+                    <div class="category-image">
+                        <img src="https://ik.imagekit.io/anzznaqya/تصاميم الدينيه (الجمعه)/IMG-20251211-WA0054.jpg"
+                            alt="Friday Designs">
+                        <div class="category-overlay">
+                            <i class="fas fa-moon"></i>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h3 data-ar="تصاميم الدينيه (الجمعه)" data-en="Friday Designs">تصاميم الدينيه (الجمعه)</h3>
+                        <button class="btn btn-sm btn-outline" data-ar="عرض المزيد" data-en="View More">عرض
+                            المزيد</button>
+                    </div>
+                </div>
+
+                <!-- 5. Logos -->
+                <div class="category-card" onclick="openGallery('logos')">
+                    <div class="category-image">
+                        <img src="https://ik.imagekit.io/anzznaqya/شعارات/IMG-20240212-WA0005.jpg" alt="Logos">
+                        <div class="category-overlay">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h3 data-ar="شعارات" data-en="Logos">شعارات</h3>
+                        <button class="btn btn-sm btn-outline" data-ar="عرض المزيد" data-en="View More">عرض
+                            المزيد</button>
+                    </div>
+                </div>
+
+                <!-- 6. Motion Videos -->
+                <div class="category-card" onclick="openGallery('motion')">
+                    <div class="category-image video-preview">
+                        <video src="https://ik.imagekit.io/anzznaqya/فيديو الميوشن/AMERI.mp4" muted loop
+                            onmouseover="this.play()" onmouseout="this.pause()"></video>
+                        <div class="category-overlay">
+                            <i class="fas fa-film"></i>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h3 data-ar="فيديو موشن" data-en="Motion Graphics">فيديو موشن</h3>
+                        <button class="btn btn-sm btn-outline" data-ar="عرض المزيد" data-en="View More">عرض
+                            المزيد</button>
+                    </div>
+                </div>
+
+                <!-- 7. Montage Videos -->
+                <div class="category-card" onclick="openGallery('montage')">
+                    <div class="category-image video-preview">
+                        <video src="https://ik.imagekit.io/anzznaqya/فيديوهات المنتاج/اركاديا.mp4" muted loop
+                            onmouseover="this.play()" onmouseout="this.pause()"></video>
+                        <div class="category-overlay">
+                            <i class="fas fa-video"></i>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h3 data-ar="فيديوهات المونتاج" data-en="Montage Videos">فيديوهات المونتاج</h3>
+                        <button class="btn btn-sm btn-outline" data-ar="عرض المزيد" data-en="View More">عرض
+                            المزيد</button>
+                    </div>
+                </div>
+
+                <!-- 8. Ad Posts -->
+                <div class="category-card" onclick="openGallery('ads')">
+                    <div class="category-image">
+                        <img src="https://ik.imagekit.io/anzznaqya/منشورات اعلانيه/FB_IMG_1761944781432.jpg"
+                            alt="Ad Posts">
+                        <div class="category-overlay">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h3 data-ar="منشورات إعلانية" data-en="Ad Posts">منشورات إعلانية</h3>
+                        <button class="btn btn-sm btn-outline" data-ar="عرض المزيد" data-en="View More">عرض
+                            المزيد</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev"><i class="fas fa-chevron-right"></i></button>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext"><i class="fas fa-chevron-left"></i></button>
+        <div class="lightbox-content" id="lightboxContent"></div>
+    </div>
+
+    <!-- Services Section -->
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-ar="ماذا نقدم" data-en="What We Offer">ماذا نقدم</span>
+                <h2 class="section-title" data-ar="خدماتنا" data-en="Our Services">خدماتنا</h2>
+                <p class="section-subtitle" data-ar="نقدم لك باقة متكاملة من الخدمات الإعلانية والتسويقية"
+                    data-en="We offer you a complete package of advertising and marketing services">نقدم لك باقة متكاملة
+                    من الخدمات الإعلانية والتسويقية</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 data-ar="تصميم منشورات السوشيال ميديا" data-en="Social Media Post Design">تصميم منشورات السوشيال
+                        ميديا</h3>
+                    <p data-ar="تصاميم احترافية وجذابة لجميع منصات التواصل"
+                        data-en="Professional and attractive designs for all social platforms">تصاميم احترافية وجذابة
+                        لجميع منصات التواصل</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <h3 data-ar="إدارة صفحات فيسبوك وإنستغرام" data-en="Facebook & Instagram Management">إدارة صفحات
+                        فيسبوك وإنستغرام</h3>
+                    <p data-ar="إدارة متكاملة لصفحاتك على السوشيال ميديا"
+                        data-en="Integrated management for your social media pages">إدارة متكاملة لصفحاتك على السوشيال
+                        ميديا</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <h3 data-ar="إعداد محتوى تسويقي" data-en="Marketing Content Creation">إعداد محتوى تسويقي</h3>
+                    <p data-ar="محتوى إبداعي يجذب العملاء ويزيد التفاعل"
+                        data-en="Creative content that attracts customers and increases engagement">محتوى إبداعي يجذب
+                        العملاء ويزيد التفاعل</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3 data-ar="تصميم الشعارات والهويات" data-en="Logo & Identity Design">تصميم الشعارات والهويات</h3>
+                    <p data-ar="هوية بصرية متكاملة تعكس قوة علامتك"
+                        data-en="Integrated visual identity reflecting your brand strength">هوية بصرية متكاملة تعكس قوة
+                        علامتك</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 data-ar="تحليل الأداء والتقارير" data-en="Performance Analysis & Reports">تحليل الأداء والتقارير
+                    </h3>
+                    <p data-ar="تقارير دورية وتحليل شامل لأداء حملاتك"
+                        data-en="Periodic reports and comprehensive analysis of your campaign performance">تقارير دورية
+                        وتحليل شامل لأداء حملاتك</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3 data-ar="فيديوهات موشن جرافيك" data-en="Motion Graphic Videos">فيديوهات موشن جرافيك</h3>
+                    <p data-ar="فيديوهات إعلانية متحركة احترافية" data-en="Professional animated advertising videos">
+                        فيديوهات إعلانية متحركة احترافية</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscription Packages -->
+    <section class="packages section" id="packages">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-ar="عروض خاصة" data-en="Special Offers">عروض خاصة</span>
+                <h2 class="section-title" data-ar="باقات الاشتراك الشهرية" data-en="Monthly Subscription Packages">باقات
+                    الاشتراك الشهرية</h2>
+                <p class="section-subtitle" data-ar="اختر الباقة المناسبة لاحتياجاتك"
+                    data-en="Choose the package that suits your needs">اختر الباقة المناسبة لاحتياجاتك</p>
+            </div>
+            <div class="packages-grid">
+                <!-- Package 1 -->
+                <div class="package-card">
+                    <div class="package-badge" data-ar="الباقة الأولى" data-en="First Package">الباقة الأولى</div>
+                    <div class="package-price">
+                        <span class="currency" data-ar="ر.س" data-en="SAR">ر.س</span>
+                        <span class="amount">100</span>
+                        <span class="period" data-ar="/شهرياً" data-en="/mo">/شهرياً</span>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> <span data-ar="4 تصاميم إعلانية"
+                                data-en="4 Advertising Designs">4 تصاميم إعلانية</span></li>
+                        <li><i class="fas fa-check"></i> <span data-ar="تصاميم المناسبات"
+                                data-en="Occasion Designs">تصاميم المناسبات</span></li>
+                        <li><i class="fas fa-check"></i> <span data-ar="دعم فني" data-en="Technical Support">دعم
+                                فني</span></li>
+                    </ul>
+                    <a href="https://wa.me/967774587970?text=أريد الاشتراك في الباقة الأولى - 100 ريال" target="_blank"
+                        class="btn btn-package" data-ar="اشترك الآن" data-en="Subscribe Now">اشترك الآن</a>
+                </div>
+
+                <!-- Package 2 -->
+                <div class="package-card">
+                    <div class="package-badge" data-ar="الباقة الثانية" data-en="Second Package">الباقة الثانية</div>
+                    <div class="package-price">
+                        <span class="currency" data-ar="ر.س" data-en="SAR">ر.س</span>
+                        <span class="amount">200</span>
+                        <span class="period" data-ar="/شهرياً" data-en="/mo">/شهرياً</span>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> <span data-ar="8 تصاميم إعلانية"
+                                data-en="8 Advertising Designs">8 تصاميم إعلانية</span></li>
+                        <li><i class="fas fa-check"></i> <span data-ar="تصاميم متنوعة عند الطلب"
+                                data-en="Diverse Designs on Request">تصاميم متنوعة عند الطلب</span></li>
+                        <li><i class="fas fa-check"></i> <span data-ar="دعم فني على مدار الساعة"
+                                data-en="24/7 Technical Support">دعم فني على مدار الساعة</span></li>
+                    </ul>
+                    <a href="https://wa.me/967774587970?text=أريد الاشتراك في الباقة الثانية - 200 ريال" target="_blank"
+                        class="btn btn-package" data-ar="اشترك الآن" data-en="Subscribe Now">اشترك الآن</a>
+                </div>
+
+                <!-- Package 3 -->
+                <div class="package-card featured">
+                    <div class="limited-badge">
+                        <i class="fas fa-fire"></i> <span data-ar="الأكثر طلباً" data-en="Most Popular">الأكثر
+                            طلباً</span>
+                    </div>
+                    <div class="package-badge" data-ar="الباقة الثالثة" data-en="Third Package">الباقة الثالثة</div>
+                    <div class="package-price">
+                        <span class="currency" data-ar="ر.س" data-en="SAR">ر.س</span>
+                        <span class="amount">300</span>
+                        <span class="period" data-ar="/شهرياً" data-en="/mo">/شهرياً</span>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> <span data-ar="12 تصميم بالشهر" data-en="12 Monthly Designs">12
+                                تصميم بالشهر</span></li>
+                        <li><i class="fas fa-check"></i> <span data-ar="جميع أنواع التصاميم"
+                                data-en="All Design Types">جميع أنواع التصاميم</span></li>
+                        <li><i class="fas fa-check"></i> <span data-ar="أولوية في التنفيذ"
+                                data-en="Priority Execution">أولوية في التنفيذ</span></li>
+                        <li><i class="fas fa-check"></i> <span data-ar="دعم فني VIP" data-en="VIP Support">دعم فني
+                                VIP</span></li>
+                    </ul>
+                    <a href="https://wa.me/967774587970?text=أريد الاشتراك في الباقة الثالثة - 300 ريال" target="_blank"
+                        class="btn btn-package" data-ar="اشترك الآن" data-en="Subscribe Now">اشترك الآن</a>
+                </div>
+
+                <!-- Package 4 -->
+                <div class="package-card">
+                    <div class="package-badge" data-ar="الباقة الرابعة" data-en="Fourth Package">الباقة الرابعة</div>
+                    <div class="package-price">
+                        <span class="amount" style="font-size: 2.5rem;" data-ar="خاصة VIP" data-en="Special VIP">خاصة
+                            VIP</span>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> <span data-ar="لرجال الأعمال والشركات"
+                                data-en="For Businessmen & Companies">لرجال الأعمال والشركات</span></li>
+                        <li><i class="fas fa-check"></i> <span data-ar="تصاميم إعلانية"
+                                data-en="Advertising Designs">تصاميم إعلانية</span></li>
+                        <li><i class="fas fa-check"></i> <span data-ar="إدارة صفحات" data-en="Page Management">إدارة
+                                صفحات</span></li>
+                        <li><i class="fas fa-check"></i> <span data-ar="فيديوهات مونتاج"
+                                data-en="Montage Videos">فيديوهات مونتاج</span></li>
+                        <li><i class="fas fa-check"></i> <span data-ar="كتابة محتوى" data-en="Content Writing">كتابة
+                                محتوى</span></li>
+                    </ul>
+                    <a href="https://wa.me/967774587970?text=أريد الاشتراك في الباقة الرابعة (VIP)" target="_blank"
+                        class="btn btn-package" data-ar="اشترك الآن" data-en="Subscribe Now">اشترك الآن</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page Management Section -->
+    <section class="management section" id="management">
+        <div class="container">
+            <div class="management-content">
+                <div class="management-text">
+                    <span class="section-badge" data-ar="خدمة مميزة" data-en="Premium Service">خدمة مميزة</span>
+                    <h2 data-ar="إدارة الصفحات" data-en="Page Management">إدارة الصفحات</h2>
+                    <p data-ar="دع فريقنا المتخصص يتولى إدارة صفحاتك على السوشيال ميديا بشكل احترافي"
+                        data-en="Let our specialized team handle your social media pages professionally">دع فريقنا
+                        المتخصص يتولى إدارة صفحاتك على السوشيال ميديا بشكل احترافي</p>
+                    <div class="management-options">
+                        <div class="management-option">
+                            <div class="option-icon">
+                                <i class="fas fa-cog"></i>
+                            </div>
+                            <div class="option-details">
+                                <h4 data-ar="إدارة أساسية" data-en="Basic Management">إدارة أساسية</h4>
+                                <p class="option-price" data-ar="200 ريال سعودي / شهرياً" data-en="200 SAR / Month">200
+                                    ريال سعودي / شهرياً</p>
+                            </div>
+                        </div>
+                        <div class="management-option">
+                            <div class="option-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="option-details">
+                                <h4 data-ar="إدارة متقدمة + إعلانات ممولة" data-en="Advanced Management + Paid Ads">
+                                    إدارة متقدمة + إعلانات ممولة</h4>
+                                <p class="option-price" data-ar="حسب الاستفسار" data-en="Upon Inquiry">حسب الاستفسار</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/967774587970?text=أريد الاستفسار عن خدمة إدارة الصفحات" target="_blank"
+                        class="btn btn-primary">
+                        <i class="fab fa-whatsapp"></i>
+                        <span data-ar="استفسر الآن" data-en="Inquire Now">استفسر الآن</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us section" id="why-us">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-ar="تميزنا" data-en="Why Us">تميزنا</span>
+                <h2 class="section-title" data-ar="لماذا تختار مؤسسة سلام؟" data-en="Why Choose Salam Agency?">لماذا
+                    تختار مؤسسة سلام؟</h2>
+            </div>
+            <div class="why-us-grid">
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 data-ar="فريق مبدع ومحترف" data-en="Creative Professional Team">فريق مبدع ومحترف</h3>
+                    <p data-ar="نضم نخبة من المصممين والمسوقين المحترفين"
+                        data-en="We have a team of elite designers and marketers">نضم نخبة من المصممين والمسوقين
+                        المحترفين</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 data-ar="تنفيذ سريع وجودة عالية" data-en="Fast Execution & High Quality">تنفيذ سريع وجودة عالية
+                    </h3>
+                    <p data-ar="نلتزم بالمواعيد مع الحفاظ على أعلى معايير الجودة"
+                        data-en="We adhere to deadlines while maintaining the highest quality standards">نلتزم بالمواعيد
+                        مع الحفاظ على أعلى معايير الجودة</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-tags"></i>
+                    </div>
+                    <h3 data-ar="أسعار تنافسية" data-en="Competitive Prices">أسعار تنافسية</h3>
+                    <p data-ar="خدمات احترافية بأسعار مناسبة للجميع"
+                        data-en="Professional services at affordable prices">خدمات احترافية بأسعار مناسبة للجميع</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 data-ar="خدمات لجميع الدول" data-en="Global Services">خدمات لجميع الدول</h3>
+                    <p data-ar="نقدم خدماتنا للعملاء في جميع أنحاء العالم"
+                        data-en="We provide services to clients worldwide">نقدم خدماتنا للعملاء في جميع أنحاء العالم</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3 data-ar="دعم وتواصل مستمر" data-en="Continuous Support">دعم وتواصل مستمر</h3>
+                    <p data-ar="فريق دعم متواجد للإجابة على استفساراتك"
+                        data-en="Support team available to answer your queries">فريق دعم متواجد للإجابة على استفساراتك
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-ar="آراء العملاء" data-en="Client Reviews">آراء العملاء</span>
+                <h2 class="section-title" data-ar="ماذا يقول عملاؤنا" data-en="What Our Clients Say">ماذا يقول عملاؤنا
+                </h2>
+                <p class="section-subtitle" data-ar="نفتخر بثقة عملائنا" data-en="We're proud of our clients' trust">
+                    نفتخر بثقة عملائنا</p>
+            </div>
+            <div class="testimonials-slider" id="testimonialsSlider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-right testimonial-quote"></i>
+                        <p data-ar="تعاملت مع مؤسسة سلام وكانت تجربة رائعة. التصاميم احترافية والتسليم في الموعد المحدد. أنصح الجميع بالتعامل معهم!"
+                            data-en="I worked with Salam Agency and it was a great experience. Professional designs and on-time delivery. I recommend everyone to work with them!">
+                            تعاملت مع مؤسسة سلام وكانت تجربة رائعة. التصاميم احترافية والتسليم في الموعد المحدد. أنصح
+                            الجميع بالتعامل معهم!</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 data-ar="أحمد محمد" data-en="Ahmed Mohammed">أحمد محمد</h4>
+                            <span data-ar="صاحب متجر إلكتروني" data-en="E-commerce Owner">صاحب متجر إلكتروني</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-right testimonial-quote"></i>
+                        <p data-ar="خدمة ممتازة وأسعار معقولة جداً. فريق عمل متعاون ويستمع لاحتياجات العميل. شكراً مؤسسة سلام!"
+                            data-en="Excellent service and very reasonable prices. A cooperative team that listens to customer needs. Thank you Salam Agency!">
+                            خدمة ممتازة وأسعار معقولة جداً. فريق عمل متعاون ويستمع لاحتياجات العميل. شكراً مؤسسة سلام!
+                        </p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 data-ar="سارة علي" data-en="Sara Ali">سارة علي</h4>
+                            <span data-ar="مدربة تنمية بشرية" data-en="Life Coach">مدربة تنمية بشرية</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-right testimonial-quote"></i>
+                        <p data-ar="أفضل مؤسسة تعاملت معها في مجال التصميم والتسويق. جودة عالية وإبداع في كل تصميم."
+                            data-en="The best agency I've worked with in design and marketing. High quality and creativity in every design.">
+                            أفضل مؤسسة تعاملت معها في مجال التصميم والتسويق. جودة عالية وإبداع في كل تصميم.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 data-ar="محمد العامري" data-en="Mohammed Al-Ameri">محمد العامري</h4>
+                            <span data-ar="رجل أعمال" data-en="Businessman">رجل أعمال</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-right testimonial-quote"></i>
+                        <p data-ar="تصاميم راقية ومميزة. سرعة في التنفيذ واهتمام بأدق التفاصيل. تجربة ناجحة 100%!"
+                            data-en="Elegant and distinctive designs. Fast execution and attention to the smallest details. 100% successful experience!">
+                            تصاميم راقية ومميزة. سرعة في التنفيذ واهتمام بأدق التفاصيل. تجربة ناجحة 100%!</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 data-ar="فاطمة حسن" data-en="Fatima Hassan">فاطمة حسن</h4>
+                            <span data-ar="صاحبة مشروع" data-en="Business Owner">صاحبة مشروع</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials-dots" id="testimonialsDots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+                <span class="dot" data-index="3"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-ar="الأسئلة الشائعة" data-en="FAQ">الأسئلة الشائعة</span>
+                <h2 class="section-title" data-ar="أسئلة متكررة" data-en="Frequently Asked Questions">أسئلة متكررة</h2>
+                <p class="section-subtitle" data-ar="إجابات على أكثر الأسئلة شيوعاً"
+                    data-en="Answers to the most common questions">إجابات على أكثر الأسئلة شيوعاً</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span data-ar="كيف يمكنني الاشتراك في الباقات؟"
+                            data-en="How can I subscribe to the packages?">كيف يمكنني الاشتراك في الباقات؟</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-ar="يمكنك الاشتراك بسهولة عبر التواصل معنا على الواتساب واختيار الباقة المناسبة لك. سيتم تفعيل الخدمة فوراً بعد إتمام الدفع."
+                            data-en="You can easily subscribe by contacting us on WhatsApp and choosing the package that suits you. The service will be activated immediately after payment is completed.">
+                            يمكنك الاشتراك بسهولة عبر التواصل معنا على الواتساب واختيار الباقة المناسبة لك. سيتم تفعيل
+                            الخدمة فوراً بعد إتمام الدفع.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span data-ar="ما هي مدة تسليم التصاميم؟" data-en="What is the delivery time for designs?">ما هي
+                            مدة تسليم التصاميم؟</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-ar="نلتزم بتسليم التصاميم خلال 24-48 ساعة حسب نوع التصميم وحجم العمل المطلوب. الباقات الشهرية يتم توزيعها على مدار الشهر."
+                            data-en="We commit to delivering designs within 24-48 hours depending on the type of design and the scope of work required. Monthly packages are distributed throughout the month.">
+                            نلتزم بتسليم التصاميم خلال 24-48 ساعة حسب نوع التصميم وحجم العمل المطلوب. الباقات الشهرية
+                            يتم توزيعها على مدار الشهر.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span data-ar="هل يمكنني طلب تعديلات على التصميم؟"
+                            data-en="Can I request modifications to the design?">هل يمكنني طلب تعديلات على
+                            التصميم؟</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-ar="نعم، نوفر تعديلات مجانية على كل تصميم لضمان رضاك التام. نحرص على تنفيذ رؤيتك بأفضل شكل ممكن."
+                            data-en="Yes, we provide free modifications on each design to ensure your complete satisfaction. We ensure to implement your vision in the best possible way.">
+                            نعم، نوفر تعديلات مجانية على كل تصميم لضمان رضاك التام. نحرص على تنفيذ رؤيتك بأفضل شكل ممكن.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span data-ar="ما هي طرق الدفع المتاحة؟" data-en="What payment methods are available?">ما هي طرق
+                            الدفع المتاحة؟</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-ar="نقبل الدفع عبر التحويل البنكي، المحافظ الإلكترونية، وخدمات تحويل الأموال المختلفة. يمكنك الاستفسار عن الطريقة الأنسب لك."
+                            data-en="We accept payment via bank transfer, electronic wallets, and various money transfer services. You can inquire about the most suitable method for you.">
+                            نقبل الدفع عبر التحويل البنكي، المحافظ الإلكترونية، وخدمات تحويل الأموال المختلفة. يمكنك
+                            الاستفسار عن الطريقة الأنسب لك.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span data-ar="هل تقدمون خدمات للشركات خارج اليمن؟"
+                            data-en="Do you provide services for companies outside Yemen?">هل تقدمون خدمات للشركات خارج
+                            اليمن؟</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p data-ar="نعم، نقدم خدماتنا لجميع العملاء في الدول العربية والعالم. التواصل والتسليم يتم إلكترونياً بكل سهولة."
+                            data-en="Yes, we provide our services to all customers in Arab countries and worldwide. Communication and delivery are done electronically with ease.">
+                            نعم، نقدم خدماتنا لجميع العملاء في الدول العربية والعالم. التواصل والتسليم يتم إلكترونياً
+                            بكل سهولة.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-ar="ابدأ الآن" data-en="Start Now">ابدأ الآن</span>
+                <h2 class="section-title" data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</h2>
+                <p class="section-subtitle" data-ar="ابدأ الآن رحلتك نحو التميز الرقمي معنا"
+                    data-en="Start your journey to digital excellence with us now">ابدأ الآن رحلتك نحو التميز الرقمي
+                    معنا</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-methods">
+                    <a href="https://wa.me/967774587970" target="_blank" class="contact-card whatsapp">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h3 data-ar="واتساب" data-en="WhatsApp">واتساب</h3>
+                        <p data-ar="تواصل معنا مباشرة" data-en="Contact us directly">تواصل معنا مباشرة</p>
+                    </a>
+                    <div class="contact-card phone">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3 data-ar="أرقام التواصل" data-en="Phone Numbers">أرقام التواصل</h3>
+                        <p dir="ltr">+967 774 587 970</p>
+                        <p dir="ltr">+967 775 394 887</p>
+                        <p dir="ltr">+967 782 121 030</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <h3 data-ar="تابعنا على" data-en="Follow Us">تابعنا على</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/1NKr11uRmx/" target="_blank"
+                            class="social-icon facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/q.p5___?igsh=cGY2cGozNXhzZ3Ry" target="_blank"
+                            class="social-icon instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/967774587970" target="_blank" class="social-icon whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.jpg" alt="مؤسسة سلام">
+                </div>
+                <!-- <p class="footer-tagline" data-ar="مؤسسة سلام للإعلان والتسويق – صديقك إلى نجاحك الرقمي" data-en="Salam Advertising & Marketing - Your Partner to Digital Success">مؤسسة سلام للإعلان والتسويق – صديقك إلى نجاحك الرقمي</p> -->
+                <a href="https://wa.me/967774587970?text=أريد حجز باقة" target="_blank" class="btn btn-primary">
+                    <i class="fas fa-bookmark"></i>
+                    <span data-ar="احجز باقتك الآن" data-en="Book Your Package">احجز باقتك الآن</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/967774587970" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
