@@ -374,10 +374,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function showLightboxItem() {
         // Prepend Base URL to the relative path
-        const itemPath = currentGalleryItems[currentIndex];
-        // Check if it already has http (just in case), otherwise prepend
-        const itemSrc = itemPath.startsWith('http') ? itemPath : IMAGEKIT_BASE_URL + itemPath;
+        let itemPath = currentGalleryItems[currentIndex];
 
+        // Encode the path to handle Arabic characters and spaces correctly
+        // We split by '/' to encode each segment individually, avoiding encoding the '/' separators
+        if (!itemPath.startsWith('http')) {
+            itemPath = itemPath.split('/').map(segment => encodeURIComponent(segment)).join('/');
+            itemPath = IMAGEKIT_BASE_URL + itemPath;
+        }
+
+        const itemSrc = itemPath;
         const isVideo = itemSrc.toLowerCase().endsWith('.mp4');
 
         lightboxContent.innerHTML = '';
